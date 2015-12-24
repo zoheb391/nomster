@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,800);
 .booyah-box{
     -moz-box-shadow:1px 1px 2px 0 #d0d0d0;
     -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
@@ -24,5 +25,10 @@ body{
 	border-radius:0;
 	box-shadow: 0px 1px 3px #2a2a2a;
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-
 }	
+.navbar-inverse .navbar-brand {
+  color: #FFFF66;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 800;
+  font-size:26px;
+  }
