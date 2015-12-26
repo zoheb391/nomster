@@ -4,7 +4,9 @@
 	<br></br>
 	<p><%= @place.description  %></p>
 	<div class ="pull-right">
+		<% if current_user && current_user == @place.user %>
 		<%= link_to 'EDIT', edit_place_path(@place),  :class =>'btn btn-primary' %>
+		<% end %>
 		<%= link_to 'DELETE', place_path(@place), :method => :delete, :data =>{ :confirm => 'Are You Sure You Want To Delete This?'}, :class => 'btn btn-primary' %>
 	</div>
 </div>
