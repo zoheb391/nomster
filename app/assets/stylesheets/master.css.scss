@@ -25,6 +25,7 @@ body{
 	border-radius:0;
 	box-shadow: 0px 1px 3px #2a2a2a;
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  margin-bottom:0;
 }	
 .navbar-inverse .navbar-brand {
   color: #FFFF66;
@@ -100,3 +101,21 @@ blockquote p {
           height: auto;
           max-width: 100%;
    }
+
+   .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 550px;
+  }
+  .carousel-caption {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight:100;
+    text-shadow: rgba(0,0,0,0.95) 2px 2px;
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    position:absolute;
+    left:0;
+}
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
